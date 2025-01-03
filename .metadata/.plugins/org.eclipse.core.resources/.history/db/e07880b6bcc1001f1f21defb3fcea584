@@ -1,0 +1,5 @@
+package com.orders.orderservice.controller;
+
+public class OrderController {
+
+}

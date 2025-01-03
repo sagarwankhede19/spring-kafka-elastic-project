@@ -1,0 +1,28 @@
+package com.orders.orderservice.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.orders.orderservice.services.OrderProducer;
+
+@RestController
+@RequestMapping("/api/v1")
+public class OrderController {
+	OrderProducer producer;
+
+	public OrderController(OrderProducer producer) {
+		this.producer = producer;
+	}
+	
+//	public String placeOrder(@RequestBody Order order) {
+//		
+//		order.setOrderId(UUID.randomUUID().toString());
+//		OrderEvent event= new OrderEvent();
+//		event.setStatus("Pending");
+//		event.setMessage("Order status is in pending state");
+//		event.setOrder(order);
+//		producer.sendMessage(event);
+//		return "Order placed successfully....";
+//	}
+
+}

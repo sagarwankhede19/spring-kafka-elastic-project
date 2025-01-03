@@ -1,0 +1,5 @@
+package com.orders.orderservice.configs;
+
+public class KafkaConfigs {
+
+}

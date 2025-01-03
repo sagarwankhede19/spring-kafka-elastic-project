@@ -1,0 +1,12 @@
+package com.orders.StockService;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+
+@Service
+public class KafkaConfigs {
+
+	private static final Logger LOGGER= LoggerFactory.getLogger(KafkaConfigs.class);
+	
+}

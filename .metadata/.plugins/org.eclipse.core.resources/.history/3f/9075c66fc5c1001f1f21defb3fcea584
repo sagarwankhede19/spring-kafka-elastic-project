@@ -1,0 +1,5 @@
+package com.orders.StockService;
+
+public class KafkaConfigs {
+
+}
